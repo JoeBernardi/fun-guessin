@@ -1,0 +1,49 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>OkCupid Exercise</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Senior JavaScript Developer Tech Interview 2
+      </h1>
+    </header>
+
+    <main>
+      <p>
+        <strong>STEP 1:</strong> Guess a number between 1 and 2000.
+      </p>
+      <p>
+        This URL will accept a POST param called `number`. Its response will be a `status` of "low", "high", "correct", or "out of bounds". If there's a problem with your request, the `status` will be "invalid post."<br/>
+        Based on those responses, your task is figuring out what number the server is thinking of. You're more than welcome to use Stack Overflow/the internet and the AJAX library of your choice.
+      </p>
+      <p>
+        If it's helpful at all, <a href="https://jsbin.com/nuyoxayuse/edit?js,console">here</a> is a link to a JSBin with these instructions.
+      </p>
+    </main>
+
+    
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js"></script>
+
+
+  </body>
+</html>
