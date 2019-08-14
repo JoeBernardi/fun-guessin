@@ -1,0 +1,45 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>OkCupid Exercise</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Senior JavaScript Developer Tech Interview 2
+      </h1>
+    </header>
+
+    <main>
+      <p>
+        <strong>STEP 2:</strong> Mystery Phrase
+      </p>
+      <p>
+        Once you've guessed the correct number, the payload will also include a property called `nextNumber`. `nextNumber` will be higher than 2000, but if it's "guessed" using the format from step 1, it will return an object with both `letter` and `nextNumber` properties. By assembling the `letter`s over the course of guessing each `nextNumber`, you'll put together a sentence, which is the solution to the puzzle. (The final `letter` will not have a `nextNumber` included.)
+      </p>
+    </main>
+
+    
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js"></script>
+
+
+  </body>
+</html>
