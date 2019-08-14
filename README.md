@@ -4,7 +4,7 @@ Senior JavaScript Developer Tech Interview 2
 STEP 1: **Guess a number between 1 and 2000.**
 ------------
 
-The URL https://okc-interview.glitch.me/ will accept a POST param called `number`. Its response will be a `status` of `"low"`, `"high"`, `"correct"`, or `"out of bounds"`. Based on those responses, your task is figuring out what number the server is thinking of. You're more than welcome to use Stack Overflow/the internet and the AJAX library of your choice.
+The base project URL will accept a POST param called `number`. Its response will be a `status` of `"low"`, `"high"`, `"correct"`, or `"out of bounds"`. Based on those responses, your task is figuring out what number the server is thinking of. You're more than welcome to use Stack Overflow/the internet and the AJAX library of your choice.
 
 STEP 2: **Mystery phrase.**
 ------------
